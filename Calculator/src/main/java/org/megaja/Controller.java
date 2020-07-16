@@ -17,7 +17,7 @@ public class Controller extends Application {
     public Pane scene;
     private boolean check = false;
     private String current = "";
-    private Calculator calculator = new Calculator();
+    private final Calculator calculator = new Calculator();
 
     public static void main(String[] args) {
         launch(args);
@@ -36,103 +36,39 @@ public class Controller extends Application {
         result.setText(String.valueOf(calculator.clear()));
     }
 
-    public void one(MouseEvent mouseEvent) {
-        current += "1";
-        result.setText(current);
-    }
+    // TODO Add comments
 
-    public void two(MouseEvent mouseEvent) {
-        current += "2";
-        result.setText(current);
-    }
-
-    public void three(MouseEvent mouseEvent) {
-        current += "3";
-        result.setText(current);
-    }
-
-    public void four(MouseEvent mouseEvent) {
-        current += "4";
-        result.setText(current);
-    }
-
-    public void five(MouseEvent mouseEvent) {
-        current += "5";
-        result.setText(current);
-    }
-
-    public void six(MouseEvent mouseEvent) {
-        current += "6";
-        result.setText(current);
-    }
-
-    public void seven(MouseEvent mouseEvent) {
-        current += "7";
-        result.setText(current);
-    }
-
-    public void eight(MouseEvent mouseEvent) {
-        current += "8";
-        result.setText(current);
-    }
-
-    public void nine(MouseEvent mouseEvent) {
-        current += "9";
-        result.setText(current);
-    }
-    // TODO add case for changing action
-    public void divide(MouseEvent mouseEvent) {
-        if (check) {
-            check = false;
-            current =String.valueOf(calculator.get(current));
-        }
-        else {
-            check = true;
-            current += "/";
-        }
-        result.setText(current);
-    }
-
-    public void multiply(MouseEvent mouseEvent) {
-        if (check) {
-            check = false;
-            current =String.valueOf(calculator.get(current));
-        }
-        else {
-            check = true;
-            current += "*";
-        }
-        result.setText(current);
-    }
-
-    public void minus(MouseEvent mouseEvent) {
-        if (check) {
-            check = false;
-            current =String.valueOf(calculator.get(current));
-        }
-        else {
-            check = true;
-            current += "-";
-        }
-        result.setText(current);
-    }
-
-    public void add(MouseEvent mouseEvent) {
-        if (check) {
-            check = false;
-            current =String.valueOf(calculator.get(current));
-        }
-        else {
-            check = true;
-            current += "+";
-        }
-        result.setText(current);
-    }
-
-    public void equal(MouseEvent mouseEvent) {
+    public void equal() {
         if (check) {
             check = false;
             current = String.valueOf(calculator.get(current));
+        }
+        result.setText(current);
+    }
+
+    public void numberPress(MouseEvent mouseEvent) {
+        String buttonName = mouseEvent.getSource().toString();
+        buttonName = buttonName.substring(buttonName.indexOf("'") + 1);
+        buttonName = buttonName.substring(0, buttonName.indexOf("'"));
+        current += buttonName;
+        result.setText(current);
+    }
+
+    public void actionPress(MouseEvent mouseEvent) {
+        String buttonName = mouseEvent.getSource().toString();
+        buttonName = buttonName.substring(buttonName.indexOf("'") + 1);
+        buttonName = buttonName.substring(0, buttonName.indexOf("'"));
+        if (check) {
+            if (!Character.isDigit(current.charAt(current.length()-1))) {
+                current = current.substring(0, current.length()-1) + buttonName;
+            }
+            else{
+                equal();
+            }
+        }
+            else {
+            check = true;
+            current += buttonName;
         }
         result.setText(current);
     }
