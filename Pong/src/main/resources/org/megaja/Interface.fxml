@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line fx:id="paletLeft" endY="100.0" layoutX="50.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line fx:id="paletRight" endY="100.0" layoutX="740.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="10.0" stroke="WHITE" strokeMiterLimit="0.0" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="90.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="170.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="330.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="410.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="490.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="570.0" stroke="WHITE" strokeWidth="20.0" />
+      <TextArea fx:id="scoreLeft" centerShape="false" editable="false" focusTraversable="false" layoutX="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="160.0" stylesheets="@score.css" text="0" wrapText="true">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="scoreRight" centerShape="false" editable="false" layoutX="550.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="160.0" prefWidth="160.0" scaleShape="false" stylesheets="@score.css" text="0">
+         <font>
+            <Font size="70.0" />
+         </font></TextArea>
+      <Rectangle fx:id="ball" arcHeight="1.0" arcWidth="1.0" disable="true" fill="WHITE" height="20.0" layoutX="220.0" layoutY="208.0" stroke="WHITE" strokeType="INSIDE" width="20.0" />
+   </children>
+</Pane>

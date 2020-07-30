@@ -13,47 +13,47 @@
    <children>
       <AnchorPane layoutX="10.0" layoutY="90.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-background-radius: 15; -fx-border-color: silver; -fx-border-width: 5px; -fx-border-radius: 10;">
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#one" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="1" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="1" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#two" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="2" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="2" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#three" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="3" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="30.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="3" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#four" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="4" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="4" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#five" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="5" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="5" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#six" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="6" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="125.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="6" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#seven" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="7" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="30.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="7" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#eight" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="8" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="125.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="8" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#nine" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="9" textAlignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="220.0" layoutY="220.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onMouseClicked="#numberPress" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0" text="9" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
@@ -71,38 +71,38 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="TOP" ellipsisString="" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#add" prefHeight="50.0" prefWidth="50.0" scaleShape="false" text="+" textOverrun="CLIP" wrapText="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Button fx:id="plus" alignment="CENTER" contentDisplay="TOP" ellipsisString="" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#actionPress" prefHeight="50.0" prefWidth="50.0" scaleShape="false" text="+" textOverrun="CLIP" wrapText="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#minus" prefHeight="50.0" prefWidth="50.0" text="-" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Button fx:id="minus" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#actionPress" prefHeight="50.0" prefWidth="50.0" text="-" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" ellipsisString="" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#multiply" prefHeight="50.0" prefWidth="50.0" text="*" textAlignment="CENTER" textOverrun="CLIP" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Button fx:id="multiply" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#actionPress" prefHeight="50.0" prefWidth="50.0" text="*" textAlignment="CENTER" textOverrun="CLIP" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#divide" prefHeight="50.0" prefWidth="50.0" text="/" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Button fx:id="divide" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#actionPress" prefHeight="50.0" prefWidth="50.0" text="/" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
          </children>
       </GridPane>
-      <Label fx:id="result" alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="0.0" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="240.0" style="-fx-border-color: silver; -fx-border-width: 5; -fx-border-radius: 10;" text="result " textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+      <Label fx:id="result" alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="0.0" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="240.0" style="-fx-border-color: silver; -fx-border-width: 5; -fx-border-radius: 10;" text="0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="System Bold" size="30.0" />
          </font></Label>
-      <Button layoutX="260.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#clear" prefHeight="50.0" prefWidth="50.0" text="CE">
+      <Button fx:id="ce" layoutX="260.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#clear" prefHeight="50.0" prefWidth="50.0" text="CE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="330.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#equal" prefHeight="50.0" prefWidth="50.0" text="=">
+      <Button fx:id="equal" layoutX="330.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#equal" prefHeight="50.0" prefWidth="50.0" text="=">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

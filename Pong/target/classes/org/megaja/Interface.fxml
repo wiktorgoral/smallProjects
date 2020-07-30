@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line fx:id="paletLeft" endY="100.0" layoutX="50.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line fx:id="paletRight" endY="100.0" layoutX="740.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="10.0" stroke="WHITE" strokeMiterLimit="0.0" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="90.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="170.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="250.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="330.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="410.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="490.0" stroke="WHITE" strokeWidth="20.0" />
+      <Line endY="20.0" layoutX="400.0" layoutY="570.0" stroke="WHITE" strokeWidth="20.0" />
+      <TextArea centerShape="false" editable="false" focusTraversable="false" layoutX="150.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="200.0" stylesheets="@score.css" text="0" wrapText="true">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="550.0" layoutY="30.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: black;" />
+   </children>
+</Pane>

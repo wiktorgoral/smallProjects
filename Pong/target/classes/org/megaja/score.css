@@ -1,0 +1,13 @@
+.text-area .content{
+    -fx-background-color: black;
+}
+.text-area {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-progress-color: black;
+}
+
+.text-area .text {
+    -fx-text-alignment: center;
+}
